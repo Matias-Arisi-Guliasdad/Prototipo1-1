@@ -4,11 +4,18 @@ using UnityEngine;
 
 public class InteractionArea : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public UI_Manager uiManagerScript;
+    public int score = 0;
+    void Awake()
+    {
+        uiManagerScript = GameObject.FindObjectOfType<UI_Manager>();
+    }
     void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.CompareTag("Collectible")){
             Destroy(other.gameObject);
+            score ++;
+            uiManagerScript.UpdateScore(score);
         }
     }
 }
