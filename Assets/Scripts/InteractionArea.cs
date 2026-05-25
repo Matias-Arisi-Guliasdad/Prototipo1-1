@@ -4,18 +4,16 @@ using UnityEngine;
 
 public class InteractionArea : MonoBehaviour
 {
-    public UI_Manager uiManagerScript;
-    public int score = 0;
+    public GameManager gameManagerScript;
     void Awake()
     {
-        uiManagerScript = GameObject.FindObjectOfType<UI_Manager>();
+        gameManagerScript = GameObject.FindObjectOfType<GameManager>();
     }
     void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.CompareTag("Collectible")){
             Destroy(other.gameObject);
-            score ++;
-            uiManagerScript.UpdateScore(score);
+            gameManagerScript.RegistrarMochila();
         }
     }
 }
