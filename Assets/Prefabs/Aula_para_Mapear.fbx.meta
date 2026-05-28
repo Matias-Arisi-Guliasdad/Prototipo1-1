@@ -43,7 +43,47 @@ ModelImporter:
     4300006: Piso
     4300008: Techo
     4300010: Ventana
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Granito
+    second: {fileID: 2100000, guid: f376799bc6fcafa46a95dc3ef89276c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MelaminaGris
+    second: {fileID: 2100000, guid: a6b648e9625324a4788de86d9e73d39f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalBlanco
+    second: {fileID: 2100000, guid: 2e5935a533cf8364185fd375a055eb3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 6b9f3e812376dff40a68cc3c325b5bd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pared_Aula
+    second: {fileID: 2100000, guid: d5fce3486f141af41bdd1c8d4c57bcf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Techo Aula
+    second: {fileID: 2100000, guid: 9a8c76ff6740b544f8c19302c173506a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ventana_Marco
+    second: {fileID: 2100000, guid: 1f711cc9be12e9a4c86837c43a3e566a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ventana_Vidrio
+    second: {fileID: 2100000, guid: 0f355576600f7c94cbe6a17ff7ea2d91, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
