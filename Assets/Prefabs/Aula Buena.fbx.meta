@@ -1,48 +1,14 @@
 fileFormatVersion: 2
-guid: 3e3c127d220959644a0de1e416052fdc
+guid: b8b32c87b89ef094788c594548ae2ea9
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Escritorio
-    100004: Paredes
-    100006: Piso
-    100008: Refe Escala Humana
-    100010: Techo
-    100012: Ventana
     400000: //RootNode
-    400002: Escritorio
-    400004: Paredes
-    400006: Piso
-    400008: Refe Escala Humana
-    400010: Techo
-    400012: Ventana
-    2100000: Pared_Aula
-    2100002: No Name
-    2100004: MelaminaGris
-    2100006: MetalBlanco
-    2100008: Granito
-    2100010: Techo Aula
-    2100012: Ventana_Marco
-    2100014: Ventana_Vidrio
-    2300000: Escritorio
-    2300002: Paredes
-    2300004: Piso
-    2300006: Refe Escala Humana
-    2300008: Techo
-    2300010: Ventana
-    3300000: Escritorio
-    3300002: Paredes
-    3300004: Piso
-    3300006: Refe Escala Humana
-    3300008: Techo
-    3300010: Ventana
-    4300000: Paredes
-    4300002: Refe Escala Humana
-    4300004: Escritorio
-    4300006: Piso
-    4300008: Techo
-    4300010: Ventana
+    2100000: No Name
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Cube
   externalObjects: {}
   materials:
     importMaterials: 1
